@@ -18,9 +18,9 @@ from setuptools import setup, find_packages
 with open('requirements.txt') as f:
     required = f.readlines()
 
-with open('README.rst') as file:
-    long_description = file.read()
-
+#with open('README.rst') as file:
+#    long_description = file.read()
+    long_description="MOC-Adjutant"; #just hardcoding this as the README.rst is not present
 setup(
     name='adjutant-moc',
     version='0.1.0',
